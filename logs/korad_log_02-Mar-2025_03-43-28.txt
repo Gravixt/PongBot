@@ -1,0 +1,107 @@
+=== Korad Controller Session Start: 02-Mar-2025 03:43:28 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_03-43-28.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 03:43:28
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 03:43:34
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 9
+Enter custom function name (without .m extension): beerPong
+Enter parameter (1-10) or "e" to cancel: 1
+Setting beerPong level 1: Voltage = 1.00 V, Current = 0.50 A
+PSU will be activated for 5 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 5.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: 6
+Setting beerPong level 6: Voltage = 3.22 V, Current = 1.33 A
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 5.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: 8
+Setting beerPong level 8: Voltage = 4.11 V, Current = 1.67 A
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 5.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: 19
+Invalid input. Please enter a number between 1 and 10, or "e" to exit.
+Enter new level (1-10) to update settings or "e" to exit: 10
+Setting beerPong level 10: Voltage = 5.00 V, Current = 2.00 A
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 5.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: e
+PSU output confirmed INACTIVE.
+Custom function executed successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): y
+Enter file name (press enter for default): test2
+[Warning: In a future release, UI components will not be included in the output. To include UI components, use the exportapp function.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'G:\New_MatLab\toolbox\matlab\graphics\graphics\printing\print.m', 86)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('G:\New_MatLab\toolbox\matlab\graphics\graphics\printing\print.m',86,0)">line 86</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'G:\New_MatLab\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('G:\New_MatLab\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('KORAD', 'C:\Users\Ben\Desktop\Ball Launcher\KORAD.m', 145)" style="font-weight:bold">KORAD</a> (<a href="matlab: opentoline('C:\Users\Ben\Desktop\Ball Launcher\KORAD.m',145,0)">line 145</a>)] 
+Live update graph saved as C:\Users\Ben\Desktop\Ball Launcher\figures\test2.png
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 03:44:38 ===

@@ -1,0 +1,28 @@
+=== Korad Controller Session Start: 02-Mar-2025 05:57:44 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_05-57-44.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 05:57:44
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+No JSON data found in command output
+--- Raw Command Output ---
+
+Id     Name            PSJobTypeName   State         HasMoreData     Location             Command                  
+--     ----            -------------   -----         -----------     --------             -------                  
+1      Job1            BackgroundJob   Completed     True            localhost            ...                      
+{
+    "Error":  "Exception calling \"Open\" with \"0\" argument(s): \"Access to the port \u0027COM3\u0027 is denied.\"",
+    "Port":  "COM3",
+    "PSComputerName":  "localhost",
+    "RunspaceId":  "8c9a26a5-ac6f-41ed-adb7-7f8048f751b4",
+    "PSShowComputerName":  false
+}
+
+
+
+--- End Raw Output ---
+=== Detection complete: No Korad PSU found ===
+No Korad power supply detected.

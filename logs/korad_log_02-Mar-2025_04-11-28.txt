@@ -1,0 +1,64 @@
+=== Korad Controller Session Start: 02-Mar-2025 04:11:28 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_04-11-28.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 04:11:28
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 04:11:34
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: v
+Enter voltage (0-30V): 5.1
+Setting voltage to 5.1V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: c
+Enter current (0-5A): 1.751
+Setting current to 1.751A...
+Current set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 04:12:08 ===

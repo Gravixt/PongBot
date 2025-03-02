@@ -1,0 +1,333 @@
+=== Korad Controller Session Start: 02-Mar-2025 04:02:20 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_04-02-20.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 04:02:20
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 04:02:25
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 2
+    "Voltage setting: "    "06.50"    " V"
+
+    "Current setting: "    "2.000"    " A"
+
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 3
+Enter voltage (0-30V): 5
+Setting voltage to 5V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 4
+Enter current (0-5A): 1.75
+Setting current to 1.75A...
+Current set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 6
+Saving current settings to memory...
+Enter memory slot (1-5): 1
+Saving settings to memory slot M1...
+Settings saved to memory slot M1
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 2
+    "Voltage setting: "    "05.00"    " V"
+
+    "Current setting: "    "1.750"    " A"
+
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 2
+    "Voltage setting: "    "05.00"    " V"
+
+    "Current setting: "    "1.750"    " A"
+
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 5
+Running voltage ramp profile...
+Enter start voltage (0-30V): 4
+Enter end voltage (0-30V): 4
+Enter voltage step size (0.01-10V): 0.01
+Enter time per step (seconds): 0.1
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Total steps: 0
+Estimated time: 0 seconds (0.0 minutes)
+Setting initial voltage to 4V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/1: Voltage set to 4.00V
+    "Measured voltage: "    "03.43"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 5
+Running voltage ramp profile...
+Enter start voltage (0-30V): 0
+Enter end voltage (0-30V): 1
+Enter voltage step size (0.01-10V): 0.1
+Enter time per step (seconds): 0.01
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Total steps: 10
+Estimated time: 0.1 seconds (0.0 minutes)
+Setting initial voltage to 0V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/11: Voltage set to 0.00V
+    "Measured voltage: "    "00.00"    "V"
+
+Step 2/11: Voltage set to 0.10V
+    "Measured voltage: "    "00.10"    "V"
+
+Step 3/11: Voltage set to 0.20V
+Step 4/11: Voltage set to 0.30V
+    "Measured voltage: "    "00.30"    "V"
+
+Step 5/11: Voltage set to 0.40V
+Step 6/11: Voltage set to 0.50V
+    "Measured voltage: "    "00.50"    "V"
+
+Step 7/11: Voltage set to 0.60V
+    "Measured voltage: "    "00.60"    "V"
+
+Step 8/11: Voltage set to 0.70V
+Step 9/11: Voltage set to 0.80V
+    "Measured voltage: "    "00.80"    "V"
+
+Step 10/11: Voltage set to 0.90V
+Step 11/11: Voltage set to 1.00V
+    "Measured voltage: "    "01.00"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 5
+Running voltage ramp profile...
+Enter start voltage (0-30V): 5
+Enter end voltage (0-30V): 5
+Enter voltage step size (0.01-10V): 0
+Enter time per step (seconds): 0.1
+Invalid voltage step. Must be between 0.01V and 10V.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: 5
+Running voltage ramp profile...
+Enter start voltage (0-30V): 5
+Enter end voltage (0-30V): 5
+Enter voltage step size (0.01-10V): 0.01
+Enter time per step (seconds): 0.1
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Total steps: 0
+Estimated time: 0 seconds (0.0 minutes)
+Setting initial voltage to 5V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/1: Voltage set to 5.00V
+    "Measured voltage: "    "03.88"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Run voltage ramp profile
+6. Save to memory (M1-M5)
+7. Recall from memory (M1-M5)
+8. Run custom function
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 04:05:23 ===

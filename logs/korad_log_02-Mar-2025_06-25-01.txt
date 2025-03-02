@@ -1,0 +1,484 @@
+=== Korad Controller Session Start: 02-Mar-2025 06:25:01 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_06-25-01.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 06:25:01
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 06:25:03
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+Created new live visualization window.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Live update error: Invalid operation. Object must be connected to the serial port.
+Unable to detect connection to the serialport device. Ensure that the device is plugged in and create a new serialport object.
+MATLAB has experienced a low-level graphics error, and may not have drawn correctly.
+Read about what you can do to prevent this issue at <a href="matlab:opengl('problems')">Resolving Low-Level Graphics Issues</a> then restart MATLAB.
+To share details of this issue with MathWorks technical support,
+please include <a href="file:C:\Users\gapor\AppData\Local\Temp\jogl.ex.22904">this file</a> with your service request.
+r
+All resources have been cleaned up.
+Trying to re-detect Korad PSU...
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Korad PSU detected on port: COM3
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Reconnection successful!
+Created new live visualization window.
+Live display has been completely reset.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: v
+Enter voltage (0-30V): 5.5
+Setting voltage to 5.5V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Unable to detect connection to the serialport device. Ensure that the device is plugged in and create a new serialport object.
+Live update error: Invalid operation. Object must be connected to the serial port.
+r
+All resources have been cleaned up.
+Trying to re-detect Korad PSU...
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Korad PSU detected on port: COM3
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Reconnection successful!
+Created new live visualization window.
+Live display has been completely reset.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+=== Korad Power Supply Control ===
+Status: DISCONNECTED - Port may be lost due to sleep/USB disconnect
+r. Reconnect
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Connection to Korad PSU has been restored.
+0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 2
+Running voltage ramp profile...
+Enter start voltage (0-30V): 5
+Enter end voltage (0-30V): 6.5
+Specify by (s)tep size or (n)umber of steps? n
+Enter number of steps: 2
+Enter time per step (seconds): 3.5
+Total steps: 2
+Voltage step size: 0.7500V
+Estimated time: 7 seconds (0.1 minutes)
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Setting initial voltage to 5V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/3: Voltage set to 5.00V
+    "Measured voltage: "    "03.87"    "V"
+
+Step 2/3: Voltage set to 5.75V
+    "Measured voltage: "    "05.75"    "V"
+
+Step 3/3: Voltage set to 6.50V
+    "Measured voltage: "    "06.50"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+=== Korad Power Supply Control ===
+Status: DISCONNECTED - Port may be lost due to sleep/USB disconnect
+r. Reconnect
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Connection to Korad PSU has been restored.
+2
+Running voltage ramp profile...
+Enter start voltage (0-30V): 4.5
+Enter end voltage (0-30V): 5.5
+Specify by (s)tep size or (n)umber of steps? n
+Enter number of steps: 2
+Enter time per step (seconds): 2
+Total steps: 2
+Voltage step size: 0.5000V
+Estimated time: 4 seconds (0.1 minutes)
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Setting initial voltage to 4.5V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/3: Voltage set to 4.50V
+    "Measured voltage: "    "04.50"    "V"
+
+Step 2/3: Voltage set to 5.00V
+Step 3/3: Voltage set to 5.50V
+    "Measured voltage: "    "05.50"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+=== Korad Power Supply Control ===
+Status: DISCONNECTED - Port may be lost due to sleep/USB disconnect
+r. Reconnect
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Connection to Korad PSU has been restored.
+e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+All resources have been cleaned up.
+=== Korad Controller Session End: 02-Mar-2025 07:47:31 ===

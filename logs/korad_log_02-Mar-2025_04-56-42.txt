@@ -1,0 +1,8 @@
+=== Korad Controller Session Start: 02-Mar-2025 04:56:42 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_04-56-42.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 04:56:42
+[Warning: Could not extract JSON array from PowerShell output.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('findKoradPSU', 'C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\findKoradPSU.m', 60)" style="font-weight:bold">findKoradPSU</a> (<a href="matlab: opentoline('C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\findKoradPSU.m',60,0)">line 60</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\main.m', 47)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\main.m',47,0)">line 47</a>)] 
+No Korad power supply detected.

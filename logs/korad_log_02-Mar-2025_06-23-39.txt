@@ -1,0 +1,71 @@
+=== Korad Controller Session Start: 02-Mar-2025 06:23:39 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_06-23-39.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 06:23:39
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 06:23:40
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+Created new live visualization window.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+=== Korad Power Supply Control ===
+Status: DISCONNECTED - Port may be lost due to sleep/USB disconnect
+r. Reconnect
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Connection to Korad PSU has been restored.
+e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+All resources have been cleaned up.
+=== Korad Controller Session End: 02-Mar-2025 06:23:59 ===

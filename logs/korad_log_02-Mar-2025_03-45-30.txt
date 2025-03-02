@@ -1,0 +1,125 @@
+=== Korad Controller Session Start: 02-Mar-2025 03:45:30 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_03-45-30.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 03:45:30
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 03:45:36
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): y
+Enter file name (press enter for default): 
+[Warning: In a future release, UI components will not be included in the output. To include UI components, use the exportapp function.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'G:\New_MatLab\toolbox\matlab\graphics\graphics\printing\print.m', 86)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('G:\New_MatLab\toolbox\matlab\graphics\graphics\printing\print.m',86,0)">line 86</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'G:\New_MatLab\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('G:\New_MatLab\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'C:\Users\Ben\Desktop\Ball Launcher\main.m', 145)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\Ben\Desktop\Ball Launcher\main.m',145,0)">line 145</a>)] 
+Live update graph saved as C:\Users\Ben\Desktop\Ball Launcher\figures\korad_graph_02-Mar-2025_03-45-30.png
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 03:46:02 ===

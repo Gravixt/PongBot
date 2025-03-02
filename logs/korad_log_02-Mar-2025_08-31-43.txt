@@ -1,0 +1,399 @@
+=== Korad Controller Session Start: 02-Mar-2025 08:31:43 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_08-31-43.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 08:31:43
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 08:31:45
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+Created new live visualization window.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 5
+Enter custom function name (without .m extension): beerPong
+Enter power percentage (0-100), "d" for drunk mode, or "e" to cancel: 1
+Setting Beer Pong power to 1%
+Voltage = 3.54 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Connection to Korad PSU has been restored.
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 10
+Setting Beer Pong power to 10%
+Voltage = 3.85 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 90
+Setting Beer Pong power to 90%
+Voltage = 6.65 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+Connection to Korad PSU has been restored.
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 80
+Setting Beer Pong power to 80%
+Voltage = 6.30 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 85
+Setting Beer Pong power to 85%
+Voltage = 6.47 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 87
+Setting Beer Pong power to 87%
+Voltage = 6.54 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.5 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 90
+Setting Beer Pong power to 90%
+Voltage = 6.65 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.7 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 90
+Setting Beer Pong power to 90%
+Voltage = 6.65 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.1 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Connection to Korad PSU has been restored.
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 90
+Setting Beer Pong power to 90%
+Voltage = 6.65 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+Connection to Korad PSU has been restored.
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 90
+Setting Beer Pong power to 90%
+Voltage = 6.65 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Connection to Korad PSU has been restored.
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 80
+Setting Beer Pong power to 80%
+Voltage = 6.30 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.3 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 85
+Setting Beer Pong power to 85%
+Voltage = 6.47 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.5 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 100
+Setting Beer Pong power to 100%
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.7 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 30
+Setting Beer Pong power to 30%
+Voltage = 4.55 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.2 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 65
+Setting Beer Pong power to 65%
+Voltage = 5.78 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Connection to Korad PSU has been restored.
+PSU was active for 3.4 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 55
+Setting Beer Pong power to 55%
+Voltage = 5.43 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Connection to Korad PSU has been restored.
+PSU was active for 3.4 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 85
+Setting Beer Pong power to 85%
+Voltage = 6.47 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+Connection to Korad PSU has been restored.
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: 80
+Setting Beer Pong power to 80%
+Voltage = 6.30 V, Current = 2.20 A
+PSU will be activated for 3 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+PSU was active for 3.2 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Cooldown period: 2 seconds
+Cooldown: 2 second(s)
+Cooldown: 1 second(s)
+Cooldown complete.
+Enter power percentage (0-100), "d" for drunk mode, or "e" to exit: e
+PSU output confirmed INACTIVE.
+Beer Pong game ended.
+Custom function completed.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): y
+Enter file name (press enter for default): 
+[Warning: In a future release, UI components will not be included in the output. To include UI components, use the
+exportapp function.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m', 86)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\graphics\printing\print.m',86,0)">line 86</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'C:\Program Files\MATLAB\R2024a\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2024a\toolbox\matlab\general\saveas.m',181,0)">line 181</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\main.m', 245)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\main.m',245,0)">line 245</a>)] 
+Live update graph saved as C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\figures\korad_graph_02-Mar-2025_08-31-43.png
+Turning PSU OFF and closing connection...
+All resources have been cleaned up.
+=== Korad Controller Session End: 02-Mar-2025 08:41:19 ===

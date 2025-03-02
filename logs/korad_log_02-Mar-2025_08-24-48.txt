@@ -1,0 +1,235 @@
+=== Korad Controller Session Start: 02-Mar-2025 08:24:48 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_08-24-48.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 08:24:48
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 08:24:49
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+Created new live visualization window.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 5
+Enter custom function name (without .m extension): beerPong
+Enter power level (1-10), "d" for drunk mode, or "e" to cancel: d
+DRUNK MODE ACTIVATED! Random power levels will be used.
+DRUNK MODE: Setting Beer Pong power to 100% (Level 10)
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: Connection to Korad PSU has been restored.
+3
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 20% (Level 2)
+Voltage = 3.89 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 1.8 second(s)
+Time remaining: 0.8 second(s)
+PSU was active for 3.2 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 5
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 100% (Level 10)
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: Connection to Korad PSU has been restored.
+4
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 70% (Level 7)
+Voltage = 5.83 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: Connection to Korad PSU has been restored.
+7
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 10% (Level 1)
+Voltage = 3.50 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: Connection to Korad PSU has been restored.
+4
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 30% (Level 3)
+Voltage = 4.28 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 0.6 second(s)
+PSU was active for 3.4 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 5
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 60% (Level 6)
+Voltage = 5.44 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 0.7 second(s)
+PSU was active for 3.3 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 60
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 100% (Level 10)
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 10
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 100% (Level 10)
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 0.8 second(s)
+PSU was active for 3.2 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 9
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 20% (Level 2)
+Voltage = 3.89 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: 9
+DRUNK MODE: Random power level selected!
+DRUNK MODE: Setting Beer Pong power to 100% (Level 10)
+Voltage = 7.00 V, Current = 2.20 A
+PSU will be activated for 3.0 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Could not verify PSU status. Continuing anyway...
+PSU will remain active for 3 seconds
+Time remaining: 3.0 second(s)
+Time remaining: 2.0 second(s)
+Time remaining: 1.0 second(s)
+PSU was active for 3.1 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter power level (1-10), "d" for drunk mode, or "e" to exit: e
+PSU output confirmed INACTIVE.
+Beer Pong game ended.
+Custom function completed.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+All resources have been cleaned up.
+=== Korad Controller Session End: 02-Mar-2025 08:29:07 ===

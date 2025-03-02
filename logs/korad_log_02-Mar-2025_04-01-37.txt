@@ -1,0 +1,29 @@
+=== Korad Controller Session Start: 02-Mar-2025 04:01:37 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_04-01-37.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 04:01:37
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 04:01:43
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Read voltage and current settings
+3. Set voltage (custom value)
+4. Set current (custom value)
+5. Set output state (0 = off, 1 = on)
+6. Run voltage ramp profile
+7. Save to memory (M1-M5)
+8. Recall from memory (M1-M5)
+9. Run custom function
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 04:01:51 ===

@@ -1,0 +1,105 @@
+=== Korad Controller Session Start: 02-Mar-2025 08:05:01 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_08-05-01.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 08:05:01
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 08:05:03
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+Created new live visualization window.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 5
+Enter custom function name (without .m extension): beerPong
+Enter parameter (1-10) or "e" to cancel: 1
+Setting beerPong level 1: Voltage = 1.00 V, Current = 0.50 A
+PSU will be activated for 5 seconds
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Time remaining: 1 second(s)
+Connection to Korad PSU has been restored.
+PSU was active for 5.2 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: 4
+Setting beerPong level 4: Voltage = 2.33 V, Current = 1.00 A
+Activating PSU output...
+Attempt 1 failed. Trying again...
+Attempt 2 failed. Trying again...
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Connection to Korad PSU has been restored.
+Time remaining: 1 second(s)
+PSU was active for 5.5 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: 7
+Setting beerPong level 7: Voltage = 3.67 V, Current = 1.50 A
+Warning: Connection to Korad PSU has been lost. Use option "r" to reconnect.
+Activating PSU output...
+PSU output is now ACTIVE.
+PSU will remain active for 5 seconds
+Time remaining: 5 second(s)
+Time remaining: 4 second(s)
+Time remaining: 3 second(s)
+Time remaining: 2 second(s)
+Connection to Korad PSU has been restored.
+Time remaining: 1 second(s)
+PSU was active for 5.0 seconds
+Time complete. Deactivating PSU output...
+PSU output is now INACTIVE.
+Enter new level (1-10) to update settings or "e" to exit: e
+PSU output confirmed INACTIVE.
+Custom function executed successfully.
+=== Korad Power Supply Control ===
+Status: CONNECTED
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+All resources have been cleaned up.
+=== Korad Controller Session End: 02-Mar-2025 08:07:46 ===

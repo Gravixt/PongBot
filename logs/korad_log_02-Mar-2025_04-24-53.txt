@@ -1,0 +1,63 @@
+=== Korad Controller Session Start: 02-Mar-2025 04:24:53 ===
+Log file: C:\Users\Ben\Desktop\Ball Launcher\logs\korad_log_02-Mar-2025_04-24-53.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 04:24:53
+Selected port for connection: COM8
+Detection end time: 02-Mar-2025 04:24:59
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM8...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 2
+Running voltage ramp profile...
+Enter start voltage (0-30V): 3
+Enter end voltage (0-30V): 5
+Specify by (s)tep size or (n)umber of steps? s
+Enter voltage step size (0.01-10V): 0.25
+Enter time per step (seconds): 1
+Total steps: 8
+Voltage step size: 0.2500V
+Estimated time: 8 seconds (0.1 minutes)
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Setting initial voltage to 3V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/9: Voltage set to 3.00V
+Step 2/9: Voltage set to 3.25V
+Step 3/9: Voltage set to 3.50V
+Step 4/9: Voltage set to 3.75V
+Step 5/9: Voltage set to 4.00V
+Step 6/9: Voltage set to 4.25V
+Step 7/9: Voltage set to 4.50V
+Step 8/9: Voltage set to 4.75V
+Step 9/9: Voltage set to 5.00V
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: e
+Would you like to save the live update graph? (y/n): n
+Turning PSU OFF and closing connection...
+=== Korad Controller Session End: 02-Mar-2025 04:25:54 ===

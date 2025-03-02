@@ -1,0 +1,328 @@
+=== Korad Controller Session Start: 02-Mar-2025 05:11:18 ===
+Log file: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_05-11-18.txt
+=== Port Detection Phase ===
+Detection start time: 02-Mar-2025 05:11:18
+=== Starting Korad PSU detection ===
+PowerShell script path: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1
+Running command: powershell -ExecutionPolicy Bypass -File "C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\functions\TestPorts.ps1"
+Command execution status: 0
+Command executed successfully, parsing output...
+Found JSON data in the output
+Port: COM3 Response: "KORAD KA3005P V1.4 SN:02918015
+"
+Found Korad device on port COM3!
+=== Detection complete: Korad PSU found on port COM3 ===
+Selected port for connection: COM3
+Detection end time: 02-Mar-2025 05:11:19
+=== End of Detection Phase ===
+ 
+Connecting to Korad power supply on port COM3...
+Testing connection to Korad power supply...
+    "Device response: "    "KORAD KA3005P V1.4 SN:02918015"
+
+Connection successful!
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 2
+Running voltage ramp profile...
+Enter start voltage (0-30V): 4.5
+Enter end voltage (0-30V): 6
+Specify by (s)tep size or (n)umber of steps? s
+Enter voltage step size (0.01-10V): 0.25
+Enter time per step (seconds): 3
+Total steps: 6
+Voltage step size: 0.2500V
+Estimated time: 18 seconds (0.3 minutes)
+Would you like the PSU to turn off after ramp testing? (y/n): y
+Setting initial voltage to 4.5V and waiting for stabilization...
+Turning output ON...
+Starting voltage ramp...
+Step 1/7: Voltage set to 4.50V
+    "Measured voltage: "    "03.82"    "V"
+
+Step 2/7: Voltage set to 4.75V
+    "Measured voltage: "    "04.75"    "V"
+
+Step 3/7: Voltage set to 5.00V
+Step 4/7: Voltage set to 5.25V
+    "Measured voltage: "    "05.25"    "V"
+
+Step 5/7: Voltage set to 5.50V
+    "Measured voltage: "    "05.50"    "V"
+
+Step 6/7: Voltage set to 5.75V
+Step 7/7: Voltage set to 6.00V
+    "Measured voltage: "    "06.00"    "V"
+
+Voltage ramp complete.
+Turning output OFF after ramp test...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: v
+Enter voltage (0-30V): 6
+Setting voltage to 6V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: v
+Enter voltage (0-30V): 6.5
+Setting voltage to 6.5V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: v
+Enter voltage (0-30V): 5
+Setting voltage to 5V...
+Voltage set successfully.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 1
+Turning output ON...
+Output turned ON.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: 0
+Turning output OFF...
+Output turned OFF.
+=== Korad Power Supply Control ===
+0. Off
+1. On
+2. Run voltage ramp profile
+3. Save to memory (M1-M5)
+4. Recall from memory (M1-M5)
+5. Run custom function
+v. Quick set voltage
+c. Quick set current
+e. Exit
+Enter choice: Live update error: Invalid operation. Object must be connected to the serial port.
+Unable to detect connection to the serialport device. Ensure that the device is plugged in and create a new serialport object.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+e
+Would you like to save the live update graph? (y/n): Live update error: Invalid operation. Object must be connected to the serial port.
+Live update error: Invalid operation. Object must be connected to the serial port.
+n
+Turning PSU OFF and closing connection...
+Error: Invalid operation. Object must be connected to the serial port.
+=== Korad Controller Session Terminated with Error: 02-Mar-2025 05:24:09 ===
+Log file saved to: C:\Users\gapor\OneDrive\Desktop\Hackathon 2025 Pong\logs\korad_log_02-Mar-2025_05-11-18.txt
